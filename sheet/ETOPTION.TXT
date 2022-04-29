@@ -1,0 +1,28 @@
+ascii: ;ASCII比較
+case: ;大文字/小文字
+diacritics: ;発音記号付英字
+file: ;ファイルのみ
+folder: ;フォルダのみ
+path: ;パスとファイル
+regex: ;正規表現
+wfn: ;ファイル名全体
+wildcards: ;ワイルドカード
+ww: ;単語に完全一致
+child: ;<file>ファイル名に一致する子フォルダのあるフォルダ
+da: ;<date>指定したアクセス日時のファイル・フォルダ
+dc: ;<date>指定した作成日時のファイル・フォルダ
+dm: ;<date>指定した更新日時のファイル・フォルダ
+dr: ;<date>指定した実行日時のファイル・フォルダ
+dupe: ;<file>重複したファイル名
+empty: ;空フォルダ
+ext: ;<ext> ;区切り
+fsi: ;<index>指定したゼロベースのインターナル・ファイルシステム・インデックスにあるファイル・フォルダ
+len: ;<length>指定した長さのファイル名
+parents: ;<number>指定した数の親フォルダのあるファイル・フォルダ
+rc: ;<date>指定した最近変更日時のファイル・フォルダ
+root: ;ルートにあるファイル・フォルダ
+size: ;<size>[kb,mb,gd]
+type: ;<type>指定した種類のファイル・フォルダ
+<date> ;year, month/year, day/month/year
+
+

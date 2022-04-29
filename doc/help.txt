@@ -1,0 +1,48 @@
+Everything ETP
+
+Author: tar80 <tar80master@google.com>
+License: MIT License
+Repository: https://github.com/tar80/ppm-etp
+===============================================================================
+
+EverythingSearchModule(ETP)の設定と、Everythingを利用した一行編集上での
+パス補完、Whereisの設定を追加します。
+
+===============================================================================
+動作環境
+
+	・PPx Everything Search Moduleの導入
+	・Everythingのインストール
+	が必要になります。
+
+===============================================================================
+構成ファイルの説明
+
+	\sheet\ETOPTION.TXT	検索に使える修飾子の補完リスト
+
+===============================================================================
+テーブル情報
+
+	S_ppm#user:etp_path	必須。Everythingのインストールディレクトリパス
+
+===============================================================================
+デフォルトキー設定
+
+PPc
+	CTRL-F	everything検索一行編集
+	SHIFT-W	everything Whereis
+
+===============================================================================
+ETPサーバ用のEverything.ini設定例
+
+run_as_admin=1
+window_title_format=$i Server
+match_whole_word=0
+match_path=0
+match_case=0
+match_diacritics=0
+match_regex=0
+etp_server_enabled=1
+etp_server_bindings=127.0.0.1
+exclude_folders="*\\.git","*\\.github","*\\node_modules","*\\deleted$"
+
