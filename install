@@ -1,10 +1,10 @@
 ﻿PPM_PLUGIN_NAME=ppm-etp
 
 #Plugin version
-VERSION=1.3
+VERSION=1.4
 
 #Requires ppm version
-PPM_VERSION=0.13
+PPM_VERSION=0.7
 
 #Requires ppx version
 PPX_VERSION=18403
