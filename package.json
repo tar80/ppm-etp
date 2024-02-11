@@ -1,6 +1,6 @@
 {
   "name": "@ppmdev/ppm-etp",
-  "version": "1.5",
+  "version": "1.5.1",
   "description": "Supports ETP module configuretaion",
   "directories": {
     "doc": "doc"
