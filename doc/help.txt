@@ -46,3 +46,16 @@ etp_server_enabled=1
 etp_server_bindings=127.0.0.1
 exclude_folders="*\\.git","*\\.github","*\\node_modules","*\\deleted$"
 
+===============================================================================
+ETP client service の登録方法
+
+        1. Everythingサービスが設定されている場合は解除します
+        2. Everything.exe本体を別名の新規ディレクトリにコピーします
+        3. コピーしたEverything.exeを管理者権限で起動します
+        4. ETPサーバの設定をし、終わったらEverythingを終了します
+        5. プロンプトから"Everything.exe -install-client-service"を実行
+
+        コピーしたEverything.exeはサービス実行時にバックグラウンドで起動します。
+        通常のGUIアプリケーションとして操作されることはありません。
+        サービスの解除は"Everything.exe -uninstall-client-service"を実行
+
